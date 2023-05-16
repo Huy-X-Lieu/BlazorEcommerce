@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Server", "BlazorEcommerce\Server\BlazorEcommerce.Server.csproj", "{1FC5E237-F365-4AD3-B18E-CDB5F88DE954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Client", "BlazorEcommerce\Client\BlazorEcommerce.Client.csproj", "{AFFD05C8-FF15-4DF9-9202-871343EAAFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Shared", "BlazorEcommerce\Shared\BlazorEcommerce.Shared.csproj", "{218FC849-043D-4976-A155-552389DD0D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68F00627-15C4-4C87-B137-0B9D902ECC12}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC5E237-F365-4AD3-B18E-CDB5F88DE954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC5E237-F365-4AD3-B18E-CDB5F88DE954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC5E237-F365-4AD3-B18E-CDB5F88DE954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC5E237-F365-4AD3-B18E-CDB5F88DE954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFD05C8-FF15-4DF9-9202-871343EAAFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFD05C8-FF15-4DF9-9202-871343EAAFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFD05C8-FF15-4DF9-9202-871343EAAFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFD05C8-FF15-4DF9-9202-871343EAAFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218FC849-043D-4976-A155-552389DD0D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218FC849-043D-4976-A155-552389DD0D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218FC849-043D-4976-A155-552389DD0D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218FC849-043D-4976-A155-552389DD0D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
